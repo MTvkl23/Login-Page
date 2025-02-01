@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-weight: normal;
+    margin: 0px;
+}
+
+body{
+    font-family: "Poppins";
+    background-color: #080710;
+}
+
+button,input{
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.circle1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: calc(50vh - 350px);
+    margin-left: calc(50vw - 300px);
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-image: linear-gradient(to top, #2196f3, #1565c0);
+}
+.circle2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: calc(50vh + 150px);
+    margin-left: calc(50vw + 50px);
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-image: linear-gradient(to left, #ffa000, #ff6d00);
+}
+.login-window{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    margin-top: calc(50vh - 250px);
+    width: 400px;
+    height: 500px;
+    padding: 50px 35px;
+    background-color: rgba(255, 255, 255, 0.13);
+    box-shadow: 0px 0px 32px rgb(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+.title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+.login-input_lable{
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.login-input{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 0px 10px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+}
+.login-input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+.login-button{
+    height: 60px;
+    width: 100%;
+    margin-top: auto;
+    padding: 15px 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
